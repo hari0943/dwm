@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#include "/home/void/.cache/wal/colors-wal-dwm.h"
+#include "/home/alpine/.cache/wal/colors-wal-dwm.h"
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -68,6 +68,8 @@ static const char *clipboard[]={"clipmenu",NULL};
 static const char *voltoggle[] = { "amixer", "-q", "set", "Master", "toggle", NULL };
 static const char *volup[] = { "amixer","-q","sset","Master","5%+",NULL};
 static const char *voldown[]={"amixer","-q","sset","Master","5%-",NULL};
+static const char *brup[]={"xbacklight","+10%",NULL};
+static const char *brdown[]={"xbacklight","-10%",NULL};
 #include<X11/XF86keysym.h>
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -93,6 +95,8 @@ static Key keys[] = {
 	{ 0,                		XF86XK_AudioMute,spawn,          {.v = voltoggle } },
 	{ 0,                		XF86XK_AudioLowerVolume, spawn, {.v = voldown } },
 	{ 0,                		XF86XK_AudioRaiseVolume, spawn, {.v = volup } },
+	{ 0,                		XF86XK_MonBrightnessUp, spawn, {.v = brup } },
+	{ 0,                		XF86XK_MonBrightnessDown, spawn, {.v = brdown } },
 	{ MODKEY,                	XK_o, 	   spawn, 	{.v =clipboard } },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
