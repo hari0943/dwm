@@ -1,0 +1,849 @@
+Outer window is 0x1600001, inner window is 0x1600002
+
+PropertyNotify event, serial 8, synthetic NO, window 0x1600001,
+    atom 0x27 (WM_NAME), time 1566961, state PropertyNewValue
+
+PropertyNotify event, serial 9, synthetic NO, window 0x1600001,
+    atom 0x22 (WM_COMMAND), time 1566961, state PropertyNewValue
+
+PropertyNotify event, serial 10, synthetic NO, window 0x1600001,
+    atom 0x28 (WM_NORMAL_HINTS), time 1566961, state PropertyNewValue
+
+CreateNotify event, serial 11, synthetic NO, window 0x1600001,
+    parent 0x1600001, window 0x1600002, (10,10), width 50, height 50
+border_width 4, override NO
+
+PropertyNotify event, serial 14, synthetic NO, window 0x1600001,
+    atom 0x16f (WM_PROTOCOLS), time 1566962, state PropertyNewValue
+
+MapNotify event, serial 15, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600002, override NO
+
+ConfigureNotify event, serial 27, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, (0,0), width 178, height 178,
+    border_width 3, above 0xa00001, override NO
+
+ConfigureNotify event, serial 27, synthetic YES, window 0x1600001,
+    event 0x1600001, window 0x1600001, (0,22), width 178, height 178,
+    border_width 3, above 0x0, override NO
+
+ConfigureNotify event, serial 28, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, (3840,22), width 178, height 178,
+    border_width 3, above 0xa00001, override NO
+
+PropertyNotify event, serial 28, synthetic NO, window 0x1600001,
+    atom 0x148 (WM_STATE), time 1566964, state PropertyNewValue
+
+ConfigureNotify event, serial 29, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, (0,22), width 178, height 178,
+    border_width 3, above 0xa00001, override NO
+
+MapNotify event, serial 29, synthetic NO, window 0x1600001,
+    event 0x1600001, window 0x1600001, override NO
+
+VisibilityNotify event, serial 29, synthetic NO, window 0x1600001,
+    state VisibilityUnobscured
+
+Expose event, serial 29, synthetic NO, window 0x1600001,
+    (0,0), width 178, height 10, count 3
+
+Expose event, serial 29, synthetic NO, window 0x1600001,
+    (0,10), width 10, height 58, count 2
+
+Expose event, serial 29, synthetic NO, window 0x1600001,
+    (68,10), width 110, height 58, count 1
+
+Expose event, serial 29, synthetic NO, window 0x1600001,
+    (0,68), width 178, height 110, count 0
+
+FocusIn event, serial 29, synthetic NO, window 0x1600001,
+    mode NotifyNormal, detail NotifyNonlinear
+
+KeymapNotify event, serial 29, synthetic NO, window 0x0,
+    keys:  68  0   0   0   16  0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+KeyRelease event, serial 29, synthetic NO, window 0x1600001,
+    root 0x19e, subw 0x0, time 1567084, (1157,772), root:(1160,797),
+    state 0x0, keycode 36 (keysym 0xff0d, Return), same_screen YES,
+    XLookupString gives 1 bytes: (0d) ""
+    XFilterEvent returns: False
+
+FocusOut event, serial 32, synthetic NO, window 0x1600001,
+    mode NotifyGrab, detail NotifyAncestor
+
+FocusIn event, serial 32, synthetic NO, window 0x1600001,
+    mode NotifyUngrab, detail NotifyAncestor
+
+KeymapNotify event, serial 32, synthetic NO, window 0x0,
+    keys:  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+MappingNotify event, serial 32, synthetic NO, window 0x0,
+    request MappingKeyboard, first_keycode 8, count 248
+
+FocusOut event, serial 32, synthetic NO, window 0x1600001,
+    mode NotifyGrab, detail NotifyAncestor
+
+FocusIn event, serial 32, synthetic NO, window 0x1600001,
+    mode NotifyUngrab, detail NotifyAncestor
+
+KeymapNotify event, serial 32, synthetic NO, window 0x0,
+    keys:  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+RRNotify event, serial 33, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571411, state NewValue
+
+RRNotify event, serial 36, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571421, state NewValue
+
+RRNotify event, serial 36, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571421, state NewValue
+
+RRNotify event, serial 36, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571421, state NewValue
+
+RRNotify event, serial 39, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571423, state NewValue
+
+RRNotify event, serial 39, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571423, state NewValue
+
+RRNotify event, serial 47, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571431, state NewValue
+
+RRNotify event, serial 47, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571431, state NewValue
+
+RRNotify event, serial 47, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571431, state NewValue
+
+RRNotify event, serial 50, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571433, state NewValue
+
+RRNotify event, serial 50, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571433, state NewValue
+
+RRNotify event, serial 57, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571442, state NewValue
+
+RRNotify event, serial 57, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571442, state NewValue
+
+RRNotify event, serial 57, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571442, state NewValue
+
+RRNotify event, serial 60, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571444, state NewValue
+
+RRNotify event, serial 60, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571444, state NewValue
+
+RRNotify event, serial 67, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571452, state NewValue
+
+RRNotify event, serial 67, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571452, state NewValue
+
+RRNotify event, serial 67, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571452, state NewValue
+
+RRNotify event, serial 70, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571454, state NewValue
+
+RRNotify event, serial 70, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571454, state NewValue
+
+RRNotify event, serial 77, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571462, state NewValue
+
+RRNotify event, serial 77, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571462, state NewValue
+
+RRNotify event, serial 77, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571462, state NewValue
+
+RRNotify event, serial 80, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571464, state NewValue
+
+RRNotify event, serial 80, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571464, state NewValue
+
+RRNotify event, serial 87, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571472, state NewValue
+
+RRNotify event, serial 87, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571472, state NewValue
+
+RRNotify event, serial 87, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571472, state NewValue
+
+RRNotify event, serial 90, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571474, state NewValue
+
+RRNotify event, serial 90, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571474, state NewValue
+
+RRNotify event, serial 97, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571482, state NewValue
+
+RRNotify event, serial 97, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571482, state NewValue
+
+RRNotify event, serial 97, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571482, state NewValue
+
+RRNotify event, serial 100, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571484, state NewValue
+
+RRNotify event, serial 100, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571484, state NewValue
+
+RRNotify event, serial 107, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571492, state NewValue
+
+RRNotify event, serial 109, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571503, state NewValue
+
+RRNotify event, serial 109, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571503, state NewValue
+
+RRNotify event, serial 109, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571503, state NewValue
+
+RRNotify event, serial 112, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571505, state NewValue
+
+RRNotify event, serial 112, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571505, state NewValue
+
+RRNotify event, serial 119, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571513, state NewValue
+
+RRNotify event, serial 119, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571513, state NewValue
+
+RRNotify event, serial 119, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571513, state NewValue
+
+RRNotify event, serial 122, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571515, state NewValue
+
+RRNotify event, serial 122, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571515, state NewValue
+
+RRNotify event, serial 129, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571523, state NewValue
+
+RRNotify event, serial 129, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571523, state NewValue
+
+RRNotify event, serial 129, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571523, state NewValue
+
+RRNotify event, serial 132, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571525, state NewValue
+
+RRNotify event, serial 132, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571525, state NewValue
+
+RRNotify event, serial 139, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571533, state NewValue
+
+RRNotify event, serial 141, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571544, state NewValue
+
+RRNotify event, serial 141, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571544, state NewValue
+
+RRNotify event, serial 141, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571544, state NewValue
+
+RRNotify event, serial 144, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571545, state NewValue
+
+RRNotify event, serial 144, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571545, state NewValue
+
+RRNotify event, serial 151, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571554, state NewValue
+
+RRNotify event, serial 151, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571554, state NewValue
+
+RRNotify event, serial 151, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571554, state NewValue
+
+RRNotify event, serial 154, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571555, state NewValue
+
+RRNotify event, serial 154, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571555, state NewValue
+
+RRNotify event, serial 161, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571564, state NewValue
+
+RRNotify event, serial 161, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571564, state NewValue
+
+RRNotify event, serial 161, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571564, state NewValue
+
+RRNotify event, serial 164, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571565, state NewValue
+
+RRNotify event, serial 164, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571565, state NewValue
+
+RRNotify event, serial 171, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571574, state NewValue
+
+RRNotify event, serial 173, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571584, state NewValue
+
+RRNotify event, serial 173, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571584, state NewValue
+
+RRNotify event, serial 173, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571584, state NewValue
+
+RRNotify event, serial 176, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571586, state NewValue
+
+RRNotify event, serial 176, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571586, state NewValue
+
+RRNotify event, serial 183, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571594, state NewValue
+
+RRNotify event, serial 183, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571594, state NewValue
+
+RRNotify event, serial 183, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571594, state NewValue
+
+RRNotify event, serial 187, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571596, state NewValue
+
+RRNotify event, serial 187, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1571596, state NewValue
+
+RRNotify event, serial 193, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1571604, state NewValue
+
+FocusOut event, serial 195, synthetic NO, window 0x1600001,
+    mode NotifyGrab, detail NotifyAncestor
+
+FocusIn event, serial 195, synthetic NO, window 0x1600001,
+    mode NotifyUngrab, detail NotifyAncestor
+
+KeymapNotify event, serial 195, synthetic NO, window 0x0,
+    keys:  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+RRNotify event, serial 195, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572147, state NewValue
+
+RRNotify event, serial 195, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572147, state NewValue
+
+RRNotify event, serial 195, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572147, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572148, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572148, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572157, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572157, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572157, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572159, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572159, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572167, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572167, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572167, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572167, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572167, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572177, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572177, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572177, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572179, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572179, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572188, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572188, state NewValue
+
+RRNotify event, serial 197, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572188, state NewValue
+
+RRNotify event, serial 200, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572190, state NewValue
+
+RRNotify event, serial 200, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572190, state NewValue
+
+RRNotify event, serial 218, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572198, state NewValue
+
+RRNotify event, serial 218, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572198, state NewValue
+
+RRNotify event, serial 218, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572198, state NewValue
+
+RRNotify event, serial 222, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572200, state NewValue
+
+RRNotify event, serial 222, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572200, state NewValue
+
+RRNotify event, serial 242, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572208, state NewValue
+
+RRNotify event, serial 242, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572208, state NewValue
+
+RRNotify event, serial 242, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572208, state NewValue
+
+RRNotify event, serial 248, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572210, state NewValue
+
+RRNotify event, serial 248, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572210, state NewValue
+
+RRNotify event, serial 265, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572218, state NewValue
+
+RRNotify event, serial 265, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572218, state NewValue
+
+RRNotify event, serial 265, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572218, state NewValue
+
+RRNotify event, serial 270, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572220, state NewValue
+
+RRNotify event, serial 270, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572220, state NewValue
+
+RRNotify event, serial 275, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572228, state NewValue
+
+RRNotify event, serial 275, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572228, state NewValue
+
+RRNotify event, serial 275, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572228, state NewValue
+
+RRNotify event, serial 280, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572230, state NewValue
+
+RRNotify event, serial 280, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572230, state NewValue
+
+RRNotify event, serial 285, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572238, state NewValue
+
+RRNotify event, serial 285, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572238, state NewValue
+
+RRNotify event, serial 285, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572238, state NewValue
+
+RRNotify event, serial 290, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572241, state NewValue
+
+RRNotify event, serial 290, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572241, state NewValue
+
+RRNotify event, serial 295, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572248, state NewValue
+
+RRNotify event, serial 295, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572248, state NewValue
+
+RRNotify event, serial 295, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572248, state NewValue
+
+RRNotify event, serial 299, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572250, state NewValue
+
+RRNotify event, serial 299, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572250, state NewValue
+
+RRNotify event, serial 305, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572258, state NewValue
+
+RRNotify event, serial 305, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572258, state NewValue
+
+RRNotify event, serial 305, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572258, state NewValue
+
+RRNotify event, serial 309, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572260, state NewValue
+
+RRNotify event, serial 309, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572260, state NewValue
+
+RRNotify event, serial 315, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572269, state NewValue
+
+RRNotify event, serial 315, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572269, state NewValue
+
+RRNotify event, serial 315, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572269, state NewValue
+
+RRNotify event, serial 319, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572271, state NewValue
+
+RRNotify event, serial 319, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572271, state NewValue
+
+RRNotify event, serial 325, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572279, state NewValue
+
+RRNotify event, serial 325, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572279, state NewValue
+
+RRNotify event, serial 325, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572279, state NewValue
+
+RRNotify event, serial 330, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572281, state NewValue
+
+RRNotify event, serial 330, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572281, state NewValue
+
+RRNotify event, serial 335, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572289, state NewValue
+
+RRNotify event, serial 335, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572289, state NewValue
+
+RRNotify event, serial 335, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572289, state NewValue
+
+RRNotify event, serial 340, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572292, state NewValue
+
+RRNotify event, serial 340, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572292, state NewValue
+
+RRNotify event, serial 345, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572299, state NewValue
+
+RRNotify event, serial 345, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572299, state NewValue
+
+RRNotify event, serial 345, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572299, state NewValue
+
+RRNotify event, serial 348, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572301, state NewValue
+
+RRNotify event, serial 348, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572301, state NewValue
+
+RRNotify event, serial 355, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572309, state NewValue
+
+RRNotify event, serial 355, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572309, state NewValue
+
+RRNotify event, serial 355, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572309, state NewValue
+
+RRNotify event, serial 358, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572311, state NewValue
+
+RRNotify event, serial 358, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572311, state NewValue
+
+RRNotify event, serial 365, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572320, state NewValue
+
+RRNotify event, serial 365, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572320, state NewValue
+
+RRNotify event, serial 365, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572320, state NewValue
+
+RRNotify event, serial 368, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572321, state NewValue
+
+RRNotify event, serial 368, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572321, state NewValue
+
+RRNotify event, serial 375, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572330, state NewValue
+
+RRNotify event, serial 375, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572330, state NewValue
+
+RRNotify event, serial 375, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572330, state NewValue
+
+RRNotify event, serial 379, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572332, state NewValue
+
+RRNotify event, serial 379, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572332, state NewValue
+
+RRNotify event, serial 385, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572340, state NewValue
+
+RRNotify event, serial 385, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572340, state NewValue
+
+RRNotify event, serial 385, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572340, state NewValue
+
+RRNotify event, serial 388, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property Backlight, timestamp 1572342, state NewValue
+
+RRNotify event, serial 388, synthetic NO, window 0x1600001,
+    subtype XRROutputPropertyChangeNotifyEvent
+    output eDP1, property BACKLIGHT, timestamp 1572342, state NewValue
+
+MappingNotify event, serial 395, synthetic NO, window 0x0,
+    request MappingKeyboard, first_keycode 8, count 248
+
+FocusOut event, serial 395, synthetic NO, window 0x1600001,
+    mode NotifyGrab, detail NotifyAncestor
+
+FocusIn event, serial 396, synthetic NO, window 0x1600001,
+    mode NotifyUngrab, detail NotifyAncestor
+
+KeymapNotify event, serial 396, synthetic NO, window 0x0,
+    keys:  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+FocusOut event, serial 396, synthetic NO, window 0x1600001,
+    mode NotifyGrab, detail NotifyAncestor
+
+FocusIn event, serial 396, synthetic NO, window 0x1600001,
+    mode NotifyUngrab, detail NotifyAncestor
+
+KeymapNotify event, serial 396, synthetic NO, window 0x0,
+    keys:  2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+           0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+FocusOut event, serial 396, synthetic NO, window 0x1600001,
+    mode NotifyNormal, detail NotifyNonlinear

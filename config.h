@@ -1,17 +1,17 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#include "/home/cyk/.cache/wal/colors-wal-dwm.h"
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+#include "/home/arch/.cache/wal/colors-wal-dwm.h"
+static const unsigned int borderpx  = 6;        /* border pixel of windows */
+static const unsigned int gappx     = 0;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static int vertpad	  	    = 5;
-static int sidepad		    = 5;
+static int vertpad	  	    = 0;
+static int sidepad		    = 0;
 static const int user_bh            = 0;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char *fonts[]          = {"Inconsolata for Powerline:pixelsize=14:antialias=true:autohint=true" };
+static const char *fonts[]          = {"Iosevka Term:style=Bold:pixelsize=15:antialias=true:autohint=true" };
 static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
 static const unsigned int alphas[][3]      = {
@@ -68,9 +68,12 @@ static const char *clipboard[]={"clipmenu",NULL};
 static const char *voltoggle[] = { "amixer", "-q", "set", "Master", "toggle", NULL };
 static const char *volup[] = { "amixer","-q","sset","Master","5%+",NULL};
 static const char *voldown[]={"amixer","-q","sset","Master","5%-",NULL};
-static const char *brup[]={"xbacklight","+10%",NULL};
-static const char *brdown[]={"xbacklight","-10%",NULL};
+static const char *brup[]={"xbacklight","+5%",NULL};
+static const char *brdown[]={"xbacklight","-5%",NULL};
+static const char *pmenu[]={"sh","/home/arch/dots/bar/powermenu.sh",NULL};
+static const char *sgrab[]={"sh","/home/arch/dots/bar/sgrab.sh",NULL};
 #include<X11/XF86keysym.h>
+#define Print 0xff61
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -92,12 +95,14 @@ static Key keys[] = {
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
-	{ 0,                		XF86XK_AudioMute,spawn,          {.v = voltoggle } },
-	{ 0,                		XF86XK_AudioLowerVolume, spawn, {.v = voldown } },
-	{ 0,                		XF86XK_AudioRaiseVolume, spawn, {.v = volup } },
-	{ 0,                		XF86XK_MonBrightnessUp, spawn, {.v = brup } },
-	{ 0,                		XF86XK_MonBrightnessDown, spawn, {.v = brdown } },
-	{ MODKEY,                	XK_o, 	   spawn, 	{.v =clipboard } },
+	{ 0,                		XF86XK_AudioMute,spawn,    			{.v = voltoggle } },
+	{ 0,                		XF86XK_AudioLowerVolume, spawn, 		{.v = voldown } },
+	{ 0,                		XF86XK_AudioRaiseVolume, spawn, 		{.v = volup } },
+	{ 0,                		XF86XK_MonBrightnessUp, spawn, 			{.v = brup } },
+	{ 0,                		XF86XK_MonBrightnessDown, spawn, 		{.v = brdown } },
+	{ 0,                		XF86XK_PowerOff, spawn, 			{.v = pmenu } },
+	{ 0,                		Print, spawn, 				{.v = sgrab } },
+	{ MODKEY,                	XK_o, 	   spawn, 				{.v =clipboard } },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
